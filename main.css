@@ -15,18 +15,20 @@ body {
   background: #3c3a39;
 }
 
-.toolbar p,
+.toolbar a,
 img {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.toolbar p {
+.toolbar a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   color: white;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
 .headline-section {
@@ -72,6 +74,8 @@ img {
 
 .social-media {
   display: flex;
+  list-style-type: none;
+  padding: 0;
 }
 
 .social-media img {
