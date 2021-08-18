@@ -137,6 +137,8 @@ hr {
 
 .tags {
   display: flex;
+  list-style-type: none;
+  padding: 0;
 }
 
 .ltags {
@@ -289,6 +291,11 @@ hr {
 }
 
 button:hover {
-  background: rgba(255, 255, 255, 0.24);
-  border-color: rgba(255, 255, 255, 0.24);
+  background: blue;
+  border-color: blue;
+}
+
+.project-button:hover {
+  background: blue;
+  border-color: blue;
 }
