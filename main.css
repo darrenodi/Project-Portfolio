@@ -15,8 +15,7 @@ body {
   background: #3c3a39;
 }
 
-.toolbar a,
-img {
+.toolbar img {
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -29,6 +28,8 @@ img {
   color: white;
   text-decoration: none;
   margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .headline-section {
@@ -80,4 +81,89 @@ img {
 
 .social-media img {
   margin: 0;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.title-h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+}
+
+hr {
+  width: 100%;
+  text-align: center;
+  border: 1px thin #212121;
+}
+
+.card-frames {
+  display: grid;
+  padding: 24px;
+}
+
+.featured {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.featured h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  color: #091e42;
+  margin: 0;
+}
+
+.featured p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #091e42;
+  margin: 0;
+}
+
+.featured img {
+}
+
+.tags {
+  display: flex;
+}
+
+.ltags {
+  padding: 10px 12px;
+  border: 1px solid #8993a4;
+  margin: 0 12px 0 0;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #091e42;
+}
+
+.project {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  margin-top: 12px;
+  border: 1px solid;
 }
