@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 body {
   /* width: 375px;
@@ -49,7 +50,7 @@ body {
   font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 56px;
+  font-size: 50px;
   letter-spacing: 0.37px;
   color: #ff6b00;
   margin-bottom: 0;
@@ -90,8 +91,7 @@ body {
 }
 
 .title-h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -102,7 +102,7 @@ body {
 hr {
   width: 100%;
   text-align: center;
-  border: 1px thin #212121;
+  border: 1px solid #212121;
 }
 
 .card-frames {
@@ -117,8 +117,7 @@ hr {
 }
 
 .featured h2 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -127,16 +126,13 @@ hr {
 }
 
 .featured p {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
   color: #091e42;
   margin: 0;
-}
-
-.featured img {
 }
 
 .tags {
@@ -147,23 +143,152 @@ hr {
   padding: 10px 12px;
   border: 1px solid #8993a4;
   margin: 0 12px 0 0;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   color: #091e42;
 }
 
-.project {
-  font-family: Inter;
+.project-button {
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
-  color: #ffffff;
+  color: #fff;
   letter-spacing: 0.03em;
   width: 124px;
   height: 48px;
   background: #ff6b00;
   margin-top: 12px;
   border: 1px solid;
+  border-color: #ff6b00;
+}
+
+.card-works {
+  color: #fff;
+  background-image: url("images/mask.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-top: 24px;
+}
+
+.card-works .ltags {
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+}
+
+.card-works .project-button {
+  width: 100%;
+  background: #ff6b00;
+}
+
+.right-frame {
+  margin-top: 84px;
+  padding: 8px 16px;
+}
+
+.right-frame h2 {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.right-frame p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about {
+  margin-top: 120px;
+  padding: 24px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  background-image: url("images/frame.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: right;
+  background-position-y: 440px;
+}
+
+.about p {
+  color: #f4f5f7;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about h2 {
+  margin-top: 140px;
+  letter-spacing: 0.6px;
+  font-size: 72px;
+  width: 350px;
+}
+
+.about .project-button {
+  width: 190px;
+  height: 48px;
+  border-color: #ff6b00;
+}
+
+.about hr {
+  margin-top: 209px;
+  margin-bottom: 137px;
+  border: 1px solid #fff;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+.about ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0%;
+}
+
+.skill {
+  display: flex;
+  gap: 12px;
+}
+
+.skill p {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.skill-att {
+  margin-top: 44px;
+}
+
+.skill-att ul {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 131.5px;
+}
+
+.skill-att ul li {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.24);
 }
