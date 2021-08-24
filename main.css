@@ -316,7 +316,7 @@ button:hover {
   margin-bottom: 58px;
 }
 
-form ul {
+.contact-form ul {
   display: flex;
   flex-direction: column;
   list-style-type: none;
@@ -342,7 +342,6 @@ input {
 
 textarea {
   height: 114px;
-  width: 327px;
   border-radius: 0;
   font-family: "Inter", sans-serif;
   font-style: normal;
