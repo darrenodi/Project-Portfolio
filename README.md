@@ -6,7 +6,7 @@
 
 # Additional description about the project and its features.
 
-Microverse project for the development of a Software Engineer Portfolio
+Microverse project for the development of mobile version Software Engineer Portfolio
 
 ## Built With
 
