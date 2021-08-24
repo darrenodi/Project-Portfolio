@@ -299,3 +299,87 @@ button:hover {
   background: blue;
   border-color: blue;
 }
+
+.contact-form {
+  padding: 24px;
+  margin-top: 120px;
+}
+
+.contact-form h2 {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0%;
+  gap: 24px;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  border-color: #dbd8d7;
+  padding-bottom: 14px;
+  width: 95%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding-left: 12px;
+}
+
+textarea {
+  height: 114px;
+  width: 327px;
+  border-radius: 0;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  border-style: solid;
+  border-width: 12px;
+  border-color: #fff;
+  text-align: left;
+  width: 95%;
+}
+
+.button-only {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-navigation {
+  padding: 24px;
+}
+
+.bottom-navigation ul {
+  justify-content: center;
+  gap: 22px;
+}
+
+.bottom-shape {
+  width: 134px;
+  height: 5px;
+  left: calc(50% - 134px / 2 - 0.5px);
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
+}
+
+.separator {
+  border: 1px solid #dfe1e6;
+  margin-top: 110px;
+}
