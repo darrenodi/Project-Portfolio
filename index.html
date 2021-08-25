@@ -6,26 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mobile Portfolio</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <header class="toolbar">
-    <a href="#">My Logo</a>
-
+    <a href="#" class="my-logo">My Logo</a>
     <nav>
-      <img src="images/vectors/menu-list.png" alt="Menu content">
+      <a href="email-link" class="icon-item"><i class="fa fa-bars"></i></a>
+      <a href="#portfolio" class="menu-items">Portfolio</a>
+      <a href="#about" class="menu-items">About</a>
+      <a href="#contact" class="menu-items">Contact</a>
+      <a href="email-link" class="menu-items"><i class="fa fa-envelope"></i></a>
     </nav>
 
   </header>
 
   <section class="headline-section">
-    <h1 class="primary-text">Hey There. I’m Darren</h1>
+    <div class="introduction">
+      <h1 class="primary-text">Hey There. I’m Darren</h1>
 
-    <p class="supporting-text">I'm a Software Developer</p>
+      <p class="supporting-text">I'm a Software Developer</p>
 
-    <p class="description">I can help you build a product , feature or website Look through some of my work
-       and experience! If you like what you see and have a project you need coded, 
-      don’t hestiate to contact me.</p>
+      <p class="description">I can help you build a product , feature or website Look through some of my work
+        and experience! If you like what you see and have a project you need coded, 
+        don’t hestiate to contact me.</p>
+    </div>
     
     <ul class="social-media">
       <li><a href="#"><img src="images/vectors/twitter.png" alt="Twitter"></a></li>
@@ -39,24 +45,27 @@
   <section class="works">
     <div class="title">
       <h2 class="title-h2">My Recent Works</h2>
-      <hr>
+      <hr class="separator">  
+
     </div>
 
     <div class="card-frames">
       <div class="featured">
-        <img src="images/featured.png" alt="Featured project"> 
-        <h2>Multi-Post Stories</h2> 
-        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the 
-          industry's standard dummy text ever since the 1500s, when an unknown printer took a standard 
-          dummy text.</p> 
-        <ul class="tags">
-          <li class="ltags">css</li>
-          <li class="ltags">html</li>
-          <li class="ltags">bootstrap</li>
-          <li class="ltags">Ruby</li>
-        </ul>
-        <button type="button" class="project-button">See Project</button>   
-      </div>
+        <img src="images/featured.png" alt="Featured project">
+        <div>
+          <h2>Multi-Post Stories</h2> 
+          <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the 
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a standard 
+            dummy text.</p> 
+          <ul class="tags">
+            <li class="ltags">css</li>
+            <li class="ltags">html</li>
+            <li class="ltags">bootstrap</li>
+            <li class="ltags">Ruby</li>
+          </ul>
+          <button type="button" class="project-button">See Project</button>   
+          </div>
+    </div>
 
       <div class="card-works">
         <div class="right-frame">
@@ -160,6 +169,92 @@
         </div>
         <button type="button" class="project-button">See Project</button>
       </div>
+
+      <div class="desktop-card-works one">
+         
+        <button type="button" class="project-button">See Project</button>
+      </div>
+
+      <div class="desktop-card-works two">
+        <div class="right-frame">
+          <h2>Data Dashboard Healthcare</h2> 
+
+          <p>A daily selection of privately personalized reads;
+             no accounts or sign-ups required. has been the 
+             industry's standard</p> 
+
+          <ul class="tags">
+            <li class="ltags">html</li>
+            <li class="ltags">bootstrap</li>
+            <li class="ltags">Ruby</li>
+          </ul>
+        </div>  
+      </div>
+
+      <div class="desktop-card-works three">
+        <div class="right-frame">
+          <h2>Website Protfolio </h2> 
+
+          <p>A daily selection of privately personalized reads;
+             no accounts or sign-ups required. has been the 
+             industry's standard</p> 
+
+          <ul class="tags">
+            <li class="ltags">html</li>
+            <li class="ltags">bootstrap</li>
+            <li class="ltags">Ruby</li>
+          </ul>
+        </div>  
+      </div>
+
+      <div class="desktop-card-works four">
+        <div class="right-frame">
+          <h2>Profesional Art Printing Data More</h2> 
+
+          <p>A daily selection of privately personalized reads;
+             no accounts or sign-ups required. has been the 
+             industry's standard</p> 
+
+          <ul class="tags">
+            <li class="ltags">html</li>
+            <li class="ltags">bootstrap</li>
+            <li class="ltags">Ruby</li>
+          </ul>
+        </div>  
+      </div>
+
+      <div class="desktop-card-works five">
+        <div class="right-frame">
+          <h2>Data Dashboard Healthcare</h2> 
+
+          <p>A daily selection of privately personalized reads;
+             no accounts or sign-ups required. has been the 
+             industry's standard</p> 
+
+          <ul class="tags">
+            <li class="ltags">html</li>
+            <li class="ltags">bootstrap</li>
+            <li class="ltags">Ruby</li>
+          </ul>
+        </div>  
+      </div>
+
+      <div class="desktop-card-works six">
+        <div class="right-frame">
+          <h2>Website Protfolio </h2> 
+
+          <p>A daily selection of privately personalized reads;
+             no accounts or sign-ups required. has been the 
+             industry's standard</p> 
+
+          <ul class="tags">
+            <li class="ltags">html</li>
+            <li class="ltags">bootstrap</li>
+            <li class="ltags">Ruby</li>
+          </ul>
+        </div>  
+      </div>
+
     </div>
 
   </section>
@@ -180,7 +275,7 @@
     <ul class="skills-section">
       <li>
         <div class="skill">
-          <img src="images/diamond.png" alt="">
+          <img src="images/diamond.png" alt="diamond">
           <p>Language</p>
         </div>
 
@@ -190,6 +285,7 @@
             <li>Ruby</li>
             <li>Html</li>
             <li>Css</li>
+           <br>
           </ul>
         </div>
 
@@ -197,7 +293,7 @@
       
       <li>
         <div class="skill">
-          <img src="images/square.png" alt="">
+          <img src="images/square.png" alt="Frameworks">
           <p>Frameworks</p>
         </div>
 
@@ -215,7 +311,7 @@
 
       <li>
         <div class="skill">
-          <img src="images/circle.png" alt="">
+          <img src="images/circle.png" alt="Skills">
           <p>Skills</p>
         </div>
 
@@ -257,19 +353,21 @@
 
   </section>
 
-  <hr class="separator">
+  <footer>
+    <hr class="separator">
 
-  <div class="bottom-navigation">
-    
-    <ul class="social-media">
-      <li><a href="#"><img src="images/vectors/dtwitter.png" alt="Twitter"></a></li>
-      <li><a href="#"><img src="images/vectors/dlinkedin.png" alt="Linkedin"></a></li>
-      <li><a href="#"><img src="images/vectors/dmedium.png" alt="Medium"></a></li>
-      <li><a href="#"><img src="images/vectors/dgithub.png" alt="Github"></a></li>
-      <li><a href="#"><img src="images/vectors/dangel.png" alt="angellist"></a></li>
-    </ul>
+    <div class="bottom-navigation">
+      
+      <ul class="social-media">
+        <li><a href="#"><img src="images/vectors/dtwitter.png" alt="Twitter"></a></li>
+        <li><a href="#"><img src="images/vectors/dlinkedin.png" alt="Linkedin"></a></li>
+        <li><a href="#"><img src="images/vectors/dmedium.png" alt="Medium"></a></li>
+        <li><a href="#"><img src="images/vectors/dgithub.png" alt="Github"></a></li>
+        <li><a href="#"><img src="images/vectors/dangel.png" alt="angellist"></a></li>
+      </ul>
 
-    <hr class="bottom-shape">
+      <hr class="bottom-shape">
+  </footer>
   </div>
 </body>
 </html>
