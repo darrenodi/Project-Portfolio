@@ -402,6 +402,7 @@ textarea {
   header {
     padding: 24px 10.4% 24px 10.4%;
   }
+
   nav .icon-item {
     display: none;
   }
@@ -537,6 +538,10 @@ textarea {
     gap: 32px;
     margin-bottom: 131.5px;
     align-items: flex-start;
+  }
+
+  .blank-text {
+    visibility: hidden;
   }
 
   .contact-form {
