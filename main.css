@@ -283,6 +283,7 @@ hr {
 
 .skill-att {
   margin-top: 44px;
+  margin-top: 44px;
 }
 
 .skill-att ul {
@@ -352,7 +353,7 @@ input {
 
 textarea {
   height: 114px;
-  border-radius: 0;
+  border-radius: 0px;
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
