@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Author 1**
 
 - GitHub: [@githubhandle](https://github.com/darrenodi)
 - Twitter: [@twitterhandle](https://twitter.com/darrenodi)
@@ -44,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
-👤 **Author1**
+👤 **Contributor 1**
 
 - GitHub: [@githubhandle](https://github.com/KayLemba)
 
