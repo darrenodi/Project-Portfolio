@@ -44,6 +44,10 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🤝 Contributing
 
+👤 **Author1**
+
+- GitHub: [@githubhandle](https://github.com/KayLemba)
+
 Contributions, issues, and feature requests are welcome!
 
 ## Show your support
