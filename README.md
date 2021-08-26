@@ -6,21 +6,33 @@
 
 # Additional description about the project and its features.
 
-Microverse project for the development of desktop and mobile version of a Software Engineer's Portfolio
+Microverse project for the development of desktop and mobile version of a Software Engineer's Portfolio. This project
+media queries to provide a responsive website which renders according to screensize. 
 
 ## Built With
 
-- HTML, CSS
+- HTML, CSS(media queries used)
 - .Stylelintrc
 - .Hintrc
+
+## Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/darrenodi/Project-Portfolio/8c95a7b5225266e946a70d2cd7c5541c717eee89/index.html)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
+1. First, Fork the repository then Clone it to your machine using the git clone command
+2. Install dependencies such as npm
+3. Make sure you have a code editor such as vscode or sublime text
+4. Once you're done cloning, you can use the ls command to view repo.
+5. You can now run this project locally
+
 
 ### Prerequisites
 
-You would need a code editor such as vs code for this project
+1. You would need a code editor such as vs code for this project
+2. A command line interface such as git bash is recommended 
 
 ## Authors
 
