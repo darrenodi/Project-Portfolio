@@ -29,7 +29,7 @@ nav .icon-item {
 }
 
 header .my-logo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -67,7 +67,7 @@ nav .menu-items {
 }
 
 .supporting-text {
-  font-family: "Roboto", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -76,7 +76,7 @@ nav .menu-items {
 }
 
 .description {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 24px;
@@ -397,7 +397,7 @@ textarea {
   display: none;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
   /* For desktop screen sizes */
   header {
     padding: 24px 10.4% 24px 10.4%;
@@ -458,7 +458,7 @@ textarea {
     margin-top: auto;
     width: 65%;
     margin-bottom: 50px;
-    color: #212121;
+    border: 1px solid #0f1011;
   }
 
   .title h2 {
@@ -520,10 +520,11 @@ textarea {
     padding: 24px 10.4% 24px 10.4%;
     background-image: url("images/background-about.png");
     background-position-y: 8%;
+    background-position-x: 100%;
   }
 
   .about .description {
-    width: 566px;
+    width: 48.96%;
   }
 
   .about ul {
