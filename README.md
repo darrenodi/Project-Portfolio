@@ -17,7 +17,7 @@ media queries to provide a responsive website which renders according to screens
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/darrenodi/Project-Portfolio/8c95a7b5225266e946a70d2cd7c5541c717eee89/index.html)
+[Live Demo Link](https://rawcdn.githack.com/darrenodi/Project-Portfolio/deb9d4711d3ea61f928b62f11167ae9b4710f938/index.html)
 
 ## Getting Started
 
