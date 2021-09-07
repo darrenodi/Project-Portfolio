@@ -2,9 +2,9 @@
 
 ## Screenshot
 
-![screenshot](./screenshots/desktop_screenshot.png)
-![screenshot](./screenshots/mobile_screenshot.png)
-![screenshot](./screenshots/mobile_menu.png)
+![screenshot](./screenshots/desktop_screenshot.PNG)
+![screenshot](./screenshots/mobile_screenshot.PNG)
+![screenshot](./screenshots/mobile_menu.PNG)
 
 # Additional description about the project and its features.
 
