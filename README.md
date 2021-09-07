@@ -2,7 +2,9 @@
 
 ## Screenshot
 
-![screenshot](./app_screenshot.png)
+![screenshot](./screenshots/desktop_screenshot.png)
+![screenshot](./screenshots/mobile_screenshot.png)
+![screenshot](./screenshots/mobile_menu.png)
 
 # Additional description about the project and its features.
 
@@ -14,6 +16,7 @@ media queries to provide a responsive website which renders according to screens
 - HTML, CSS(media queries used)
 - .Stylelintrc
 - .Hintrc
+- .eslintrc.json
 
 ## Live Demo
 
