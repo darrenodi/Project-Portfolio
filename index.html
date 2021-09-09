@@ -82,7 +82,7 @@
             <li class="ltags">bootstrap</li>
             <li class="ltags">Ruby</li>
           </ul>
-          <button type="button" class="project-button">See Project</button>   
+          <button id="one" type="button" class="project-button clickbtn">See Project</button>   
           </div>
     </div>
 
@@ -101,7 +101,7 @@
           </ul>
         </div>
 
-        <button type="button" class="project-button">See Project</button>
+        <button id="two" type="button" class="project-button clickbtn">See Project</button>
       </div>
 
       <div class="card-works">
@@ -118,7 +118,7 @@
             <li class="ltags">Ruby</li>
           </ul>
         </div>  
-        <button type="button" class="project-button">See Project</button>
+        <button id="three" type="button" class="project-button clickbtn">See Project</button>
       </div>
 
       <div class="card-works">
@@ -135,7 +135,7 @@
             <li class="ltags">Ruby</li>
           </ul>
         </div>
-        <button type="button" class="project-button">See Project</button>
+        <button id="four" type="button" class="project-button clickbtn">See Project</button>
       </div>
 
       <div class="card-works">
@@ -152,7 +152,7 @@
             <li class="ltags">Ruby</li>
           </ul>
         </div>
-        <button type="button" class="project-button">See Project</button>
+        <button id="five" type="button" class="project-button clickbtn">See Project</button>
       </div>
 
       <div class="card-works">
@@ -169,7 +169,7 @@
             <li class="ltags">Ruby</li>
           </ul>
         </div>
-        <button type="button" class="project-button">See Project</button>
+        <button id="six" type="button" class="project-button clickbtn">See Project</button>
       </div>
 
       <div class="card-works">
@@ -186,12 +186,12 @@
             <li class="ltags">Ruby</li>
           </ul>
         </div>
-        <button type="button" class="project-button">See Project</button>
+        <button id="seven" type="button" class="project-button clickbtn">See Project</button>
       </div>
 
       <div class="desktop-card-works one">
          
-        <button type="button" class="project-button">See Project</button>
+        <button type="button" class="project-button clickbtn">See Project</button>
       </div>
 
       <div class="desktop-card-works two">
@@ -277,6 +277,44 @@
     </div>
 
   </section>
+
+  <section class="modal_popup" id="modal_pop">
+    <div class="modal_content" >
+      <div class="modal_head">
+        <h2 class="modal_title" id="modal_title">Multi-Post Stories
+        </h2>
+        <span class="close">&times;</span>
+      </div>
+
+      <ul class="tags">
+        <li class="ltags">html</li>
+        <li class="ltags">bootstrap</li>
+        <li class="ltags">Ruby</li>
+      </ul>
+
+      <div class="modal_info">
+        <img id="modal_image" src="https://darrenodi.me/Project-Portfolio/images/featured.png" alt="" class="modal_image">
+        <div class="modal_inf">
+          <p class="modal_desc" id="modal_desc">A daily selection of privately personalized 
+            reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s,
+             when an unknown printer took a standard dummy text.</p>
+
+          <div class="modal_btn">
+            <div class="modal_live">
+              <a href="/" class="sourcelinks">See Live
+              <img src="images/vectors/live-icon.png" alt="Live icon">
+            </a></div>
+
+            <div class="modal_live">
+              <a href="/" class="sourcelinks">See Source
+                <img src="images/vectors/github-icon.png" alt="Live icon">
+              </a></div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </section>
+
 
   <section id="about" class="about">
     <div class="intro">
@@ -389,6 +427,7 @@
       </div>
   </footer>
   <script src="script.js"></script>
+  <script src="modal.js"></script>
 
 </body>
 </html>
