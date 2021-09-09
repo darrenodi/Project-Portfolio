@@ -288,8 +288,8 @@
 
       <ul class="tags">
         <li class="ltags">html</li>
-        <li class="ltags">bootstrap</li>
-        <li class="ltags">Ruby</li>
+        <li class="ltags">Bootstrap</li>
+        <li class="ltags">Ruby on rails</li>
       </ul>
 
       <div class="modal_info">
@@ -390,13 +390,13 @@
     <h2>I'm always interested in hearing about new projects, 
       so if you'd like to chat please get in touch.</h2>
 
-    <form action="https://formspree.io/f/xrgrodja" method="post">
+    <form action="https://formspree.io/f/xrgrodja" method="post" id="contact-form">
       <ul class="form-elements">
         <li>
           <input type="text" name="name" required placeholder="Full name" maxlength="30">
         </li>
         <li> 
-          <input type="email" name="email" required placeholder="Email address">
+          <input type="email" name="useremail" required placeholder="Email address">
         </li>
         <li>
           <textarea name="textarea" id="textarea" rows="10" cols="30"  
@@ -406,6 +406,7 @@
           <button type="submit" class="project-button">Get in touch</button>
         </li>
       </ul>
+      <span id="email-error"></span>
     </form>
 
   </section>
@@ -428,6 +429,7 @@
   </footer>
   <script src="script.js"></script>
   <script src="modal.js"></script>
+  <script src="form.js"></script>
 
 </body>
 </html>
