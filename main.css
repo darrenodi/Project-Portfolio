@@ -782,6 +782,13 @@ textarea {
   cursor: pointer;
 }
 
+#email-error {
+  margin-top: 2px;
+  font-family: cursive;
+  font-weight: bold;
+  color: red;
+}
+
 @media only screen and (min-width: 992px) {
   .modal_info {
     display: flex;
