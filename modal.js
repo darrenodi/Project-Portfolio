@@ -2,7 +2,7 @@ const projects = [
   {
     identity: 'one',
     name: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    description: "Project is currently being uploaded to the server. Thank you for your patience.",
     image: 'images/featured.png',
     technologies: ['Ruby on Rails', 'HTML', 'Javacript'],
     links: [
@@ -14,7 +14,7 @@ const projects = [
   {
     identity: 'two',
     name: 'Data Dashboard Healthcare',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    description: "Project is currently being uploaded to the server. Thank you for your patience.",
     image: 'images/mask1.png',
     technologies: ['Ruby on Rails', 'HTML', 'Javacript'],
     links: [
@@ -26,7 +26,7 @@ const projects = [
   {
     identity: 'three',
     name: 'Website Protfolio',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    description: "Project is currently being uploaded to the server. Thank you for your patience.",
     image: 'images/mask6.png',
     technologies: ['Ruby on Rails', 'HTML', 'Javacript'],
     links: [
@@ -38,7 +38,7 @@ const projects = [
   {
     identity: 'four',
     name: 'Profesional Art Printing',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    description: "Project is currently being uploaded to the server. Thank you for your patience.",
     image: 'images/mask5.png',
     technologies: ['Ruby on Rails', 'HTML', 'Javacript'],
     links: [
@@ -50,7 +50,7 @@ const projects = [
   {
     identity: 'five',
     name: 'Data Dashboard Healthcare',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    description: "Project is currently being uploaded to the server. Thank you for your patience.",
     image: 'images/mask4.png',
     technologies: ['Ruby on Rails', 'HTML', 'Javacript'],
     links: [
@@ -62,7 +62,7 @@ const projects = [
   {
     identity: 'six',
     name: 'Website Protfolio',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    description: "Project is currently being uploaded to the server. Thank you for your patience.",
     image: 'images/mask3.png',
     technologies: ['Ruby on Rails', 'HTML', 'Javacript'],
     links: [
@@ -74,7 +74,7 @@ const projects = [
   {
     identity: 'myBtn',
     name: 'Dashboard Healthcare',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    description: "Project is currently being uploaded to the server. Thank you for your patience.",
     image: 'images/mask2.png',
     technologies: ['Ruby on Rails', 'HTML', 'Javacript'],
     links: [

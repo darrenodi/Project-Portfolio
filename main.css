@@ -124,7 +124,7 @@ nav .menu-items {
   font-weight: bold;
   font-size: 50px;
   letter-spacing: 0.37px;
-  color: #ff6b00;
+  color: #35a356;
   margin-bottom: 0;
   width: 300px;
 }
@@ -231,10 +231,10 @@ hr {
   letter-spacing: 0.03em;
   width: 124px;
   height: 48px;
-  background: #ff6b00;
+  background: #0000ff;
   margin-top: 12px;
   border: 1px solid;
-  border-color: #ff6b00;
+  border-color: #0000ff;
 }
 
 .works {
@@ -256,7 +256,7 @@ hr {
 
 .card-works .project-button {
   width: 100%;
-  background: #ff6b00;
+  background: #0000ff;
 }
 
 .right-frame {
@@ -566,7 +566,7 @@ textarea {
 
   .desktop-card-works .project-button {
     width: 100%;
-    background: #ff6b00;
+    background: #0000ff;
   }
 
   .one {
@@ -752,10 +752,10 @@ textarea {
   font-weight: bold;
   color: #fff;
   letter-spacing: 0.03em;
-  background: #ff6b00;
+  background: #0000ff;
   margin-top: 12px;
   border: 1px solid;
-  border-color: #ff6b00;
+  border-color: #0000ff;
 }
 
 .modal_live a {
